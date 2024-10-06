@@ -1,4 +1,4 @@
-# package_name
+# converter
 
 Description. 
 The package package_name is used to:
@@ -16,12 +16,12 @@ pip install package_name
 ## Usage
 
 ```python
-from package_name import file1_name
+from package_name.module1_name import file1_name
 file1_name.my_function()
 ```
 
 ## Author
-My_name
+Pedro Arruda
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
