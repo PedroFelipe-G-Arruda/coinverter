@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as f:
     page_description = f.read()
 
-with open("requirements.txt") as f:
+with open("requirements.txt",encoding="utf-8") as f:
     requirements = f.read().splitlines()
 
 setup(
     name="coinverter",
-    version="0.0.1",
+    version="0.0.5",
     author="Pedro Arruda",
     author_email="pedrofelipega@gmail.com",
     description="Convesor de moedas com base do Real Brasileiro",

@@ -10,7 +10,5 @@ def cotacao(de, para, valor = 1):
 
     dic_contacao = json.loads(cotacao)
 
-    print(dic_contacao)
-    print(dic_contacao[f'{de}{para}']["bid"])
     return float(dic_contacao[f'{de}{para}']["bid"]) * valor 
 
