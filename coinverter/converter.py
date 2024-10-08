@@ -14,5 +14,3 @@ def cotacao(de, para, valor = 1):
     print(dic_contacao[f'{de}{para}']["bid"])
     return float(dic_contacao[f'{de}{para}']["bid"]) * valor 
 
-
-print(cotacao(de = 'USD', para = 'BRL', valor = 10))
