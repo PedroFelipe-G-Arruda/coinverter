@@ -2,7 +2,6 @@ import requests
 import json
 
 def cotacao(de, para, valor = 1):
-    moeda_conversao = f'{de}-{para}'
 
     url = 'http://economia.awesomeapi.com.br/json/last/' + de + '-' + para
 

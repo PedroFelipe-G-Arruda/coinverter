@@ -8,7 +8,7 @@ with open("requirements.txt",encoding="utf-8") as f:
 
 setup(
     name="coinverter",
-    version="0.0.5",
+    version="0.0.1",
     author="Pedro Arruda",
     author_email="pedrofelipega@gmail.com",
     description="Convesor de moedas com base do Real Brasileiro",
